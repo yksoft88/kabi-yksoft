@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Delete your KidsAngel account / حذف حساب KidsAngel</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2733;
+      --muted: #5b6675;
+      --accent: #2f6fed;
+      --border: #e2e8f0;
+      --warn-bg: #fff6e6;
+      --warn-border: #f0c36d;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans Arabic", sans-serif;
+      line-height: 1.6;
+      font-size: 17px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 24px 18px 64px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 22px;
+      margin-top: 18px;
+    }
+    h1 { font-size: 1.6rem; margin: 0 0 4px; }
+    h2 { font-size: 1.15rem; margin: 26px 0 8px; }
+    p { margin: 10px 0; }
+    a { color: var(--accent); word-break: break-word; }
+    ul { margin: 8px 0; padding-inline-start: 22px; }
+    li { margin: 4px 0; }
+    .muted { color: var(--muted); font-size: 0.92rem; }
+    .steps { background: #eef4ff; border: 1px solid #cfe0ff; border-radius: 10px; padding: 14px 16px; }
+    .steps strong { color: var(--accent); }
+    .warn { background: var(--warn-bg); border: 1px solid var(--warn-border); border-radius: 10px; padding: 14px 16px; }
+    .email { font-weight: 700; }
+
+    /* Language toggle: only meaningful with JS. Hidden by default so a no-JS
+       visitor simply sees both languages stacked and fully readable. */
+    .toggle { display: none; gap: 8px; margin-bottom: 8px; }
+    .js .toggle { display: flex; }
+    .toggle button {
+      font: inherit; cursor: pointer;
+      border: 1px solid var(--border); background: #fff; color: var(--text);
+      padding: 7px 16px; border-radius: 999px;
+    }
+    .toggle button[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    /* With JS, only the active language shows. Without JS (no .js class on
+       <html>), both language blocks remain visible. */
+    .js #lang-en { display: none; }
+    .js #lang-ar { display: none; }
+    .js.show-en #lang-en { display: block; }
+    .js.show-ar #lang-ar { display: block; }
+
+    [lang="ar"] { font-size: 1.05em; }
+    hr.sep { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="toggle" role="group" aria-label="Language / اللغة">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="ar" aria-pressed="false">العربية</button>
+    </div>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <section id="lang-en" lang="en" dir="ltr">
+      <div class="card">
+        <h1>Delete your KidsAngel account</h1>
+        <p class="muted">App: <strong>KidsAngel</strong> &middot; Developer: <strong>KidsAngel</strong></p>
+
+        <p>This page explains how to request deletion of your <strong>KidsAngel</strong> account and all associated data, and exactly what is removed. You can request deletion without having the app installed.</p>
+
+        <h2>How to request deletion</h2>
+        <div class="steps">
+          <p>Email <a class="email" href="mailto:support.kidsangel@gmail.com?subject=Delete%20my%20KidsAngel%20account">support.kidsangel@gmail.com</a> from the <strong>email address registered to your account</strong>, with the subject <strong>&ldquo;Delete my KidsAngel account&rdquo;</strong>.</p>
+          <p>We verify your identity by matching the sender address to your account. Requests are processed within <strong>30 days</strong>.</p>
+        </div>
+
+        <h2>What data is deleted</h2>
+        <ul>
+          <li>Your account and email address</li>
+          <li>All child profiles and their names</li>
+          <li>Content assigned to your children</li>
+          <li>Subscription tokens associated with your account</li>
+        </ul>
+
+        <h2>What data is retained</h2>
+        <p>Nothing is retained on our live systems. Any residual copies held in encrypted backups are removed within <strong>30 days</strong>.</p>
+
+        <h2>Important: your Google Play subscription</h2>
+        <div class="warn">
+          <p>Deleting your account <strong>does not cancel</strong> your Google Play subscription. You must cancel it separately at
+          <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">play.google.com/store/account/subscriptions</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ARABIC ===================== -->
+    <section id="lang-ar" lang="ar" dir="rtl">
+      <div class="card">
+        <h1>حذف حساب KidsAngel الخاص بك</h1>
+        <p class="muted">التطبيق: <strong>KidsAngel</strong> &middot; المطوّر: <strong>KidsAngel</strong></p>
+
+        <p>توضّح هذه الصفحة كيفية طلب حذف حسابك في <strong>KidsAngel</strong> وجميع البيانات المرتبطة به، وما الذي يُحذف بالضبط. يمكنك طلب الحذف دون الحاجة إلى تثبيت التطبيق.</p>
+
+        <h2>كيفية طلب الحذف</h2>
+        <div class="steps">
+          <p>أرسل رسالة إلى <a class="email" href="mailto:support.kidsangel@gmail.com?subject=Delete%20my%20KidsAngel%20account">support.kidsangel@gmail.com</a> من <strong>عنوان البريد الإلكتروني المسجَّل في حسابك</strong>، مع جعل الموضوع <strong>«حذف حساب KidsAngel الخاص بي»</strong>.</p>
+          <p>نتحقّق من هويتك عن طريق مطابقة عنوان المُرسِل مع حسابك. تُعالَج الطلبات خلال <strong>30 يومًا</strong>.</p>
+        </div>
+
+        <h2>ما البيانات التي تُحذف</h2>
+        <ul>
+          <li>حسابك وعنوان بريدك الإلكتروني</li>
+          <li>جميع ملفات الأطفال وأسماؤهم</li>
+          <li>المحتوى المخصَّص لأطفالك</li>
+          <li>رموز الاشتراك المرتبطة بحسابك</li>
+        </ul>
+
+        <h2>ما البيانات التي يُحتفظ بها</h2>
+        <p>لا يُحتفظ بأي شيء على أنظمتنا الحيّة. تُحذف أي نسخ متبقية في النسخ الاحتياطية المشفَّرة خلال <strong>30 يومًا</strong>.</p>
+
+        <h2>تنبيه مهم: اشتراكك في Google Play</h2>
+        <div class="warn">
+          <p>حذف حسابك <strong>لا يُلغي</strong> اشتراكك في Google Play. يجب إلغاؤه بشكل منفصل من
+          <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">play.google.com/store/account/subscriptions</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="sep">
+    <p class="muted" style="text-align:center;">KidsAngel &middot; support.kidsangel@gmail.com</p>
+  </div>
+
+  <script>
+    // Progressive enhancement only. Without JS, both language sections above
+    // are visible and fully readable (AC: content readable with JS disabled).
+    (function () {
+      var root = document.documentElement;
+      root.classList.add("js");
+
+      function setLang(lang) {
+        var isAr = lang === "ar";
+        root.classList.toggle("show-ar", isAr);
+        root.classList.toggle("show-en", !isAr);
+        root.setAttribute("lang", isAr ? "ar" : "en");
+        root.setAttribute("dir", isAr ? "rtl" : "ltr");
+        var buttons = document.querySelectorAll(".toggle button");
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].setAttribute("aria-pressed", buttons[i].getAttribute("data-lang") === lang ? "true" : "false");
+        }
+      }
+
+      // Auto-detect from the browser language, default English.
+      var nav = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+      setLang(nav.indexOf("ar") === 0 ? "ar" : "en");
+
+      // Manual toggle.
+      var toggle = document.querySelector(".toggle");
+      toggle.addEventListener("click", function (e) {
+        var btn = e.target.closest("button[data-lang]");
+        if (btn) { setLang(btn.getAttribute("data-lang")); }
+      });
+    })();
+  </script>
+</body>
+</html>
